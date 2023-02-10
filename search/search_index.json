@@ -1,0 +1,1 @@
+{"config":{"lang":["ja"],"separator":"[\\s\\-\uff0c\u3002]+","pipeline":["stemmer"]},"docs":[{"location":"","title":"Home","text":""},{"location":"minigame/","title":"\u73a9\u6cd5\u4ecb\u7ecd","text":""},{"location":"skyblock/","title":"\u73a9\u6cd5\u4ecb\u7ecd","text":""},{"location":"survival/","title":"\u73a9\u6cd5\u4ecb\u7ecd","text":""}]}
