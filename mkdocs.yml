@@ -75,8 +75,8 @@ plugins:
       timezone: Asia/Shanghai
 nav:
   - "小游戏":
-      - "快速入门": "minigame/index.md"
+      - "玩法介绍": "minigame/index.md"
   - "自由生存":
-      - "快速入门": "survival/index.md"
+      - "玩法介绍": "survival/index.md"
   - "生电空岛":
-      - "快速入门": "skyblock/index.md"
+      - "玩法介绍": "skyblock/index.md"
