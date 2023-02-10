@@ -67,7 +67,8 @@ plugins:
         remove_comments: true
       cache_safe: true
       css_files:
-        - assets/stylesheets/extra.css
+        - stylesheets/minecraft-items-spritesheet.css
+        - stylesheets/harmonyos_sans.css
   - macros
   - git-revision-date-localized:
       type: timeago
