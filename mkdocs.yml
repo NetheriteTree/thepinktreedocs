@@ -1,0 +1,81 @@
+site_name: 红树林服务器帮助文档
+copyright: "Copyright &copy; 2023 The Pink Tree."
+repo_url: https://github.com/NetheriteTree/thepinktreedocs
+repo_name: NetheriteTree/thepinktreedocs
+edit_uri: ""
+theme:
+  name: material
+  font: false
+  language: zh
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+  palette:
+    scheme: slate
+    primary: teal
+    accent: light green
+  icon:
+    repo: fontawesome/brands/github
+extra_css:
+  - stylesheets/minecraft-items-spritesheet.css
+  - stylesheets/harmonyos_sans.css
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@netheritetree
+      name: 在 YouTube 上关注我们
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/3493122354973344
+      name: 在哔哩哔哩上关注我们
+    - icon: fontawesome/solid/heart
+      link: https://afdian.net/a/netheritetree
+      name: 赞助我们
+  analytics:
+    provider: google
+    property: G-D07WH8Y481
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.escapeall
+  - pymdownx.progressbar
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - toc:
+      permalink: "#"
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      css_files:
+        - assets/stylesheets/extra.css
+  - macros
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Asia/Shanghai
+nav:
+  - "小游戏":
+      - "快速入门": "minigame/index.md"
+  - "自由生存":
+      - "快速入门": "survival/index.md"
+  - "生电空岛":
+      - "快速入门": "skyblock/index.md"
